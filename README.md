@@ -1,2 +1,2 @@
-# ProjectEuler
+# ProjectEulerRepo
 Jason teachinng me stuff.
