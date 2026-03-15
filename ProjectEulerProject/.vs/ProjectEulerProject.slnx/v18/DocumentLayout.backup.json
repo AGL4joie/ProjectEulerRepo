@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aglaj\\Documents\\GitHub\\ProjectEulerRepo\\ProjectEulerProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{272E5C3A-ADD0-4CDC-831C-8C82A8B14E21}|ProjectEulerProject.pyproj|C:\\Users\\aglaj\\Documents\\GitHub\\ProjectEulerRepo\\ProjectEulerProject\\ProjectEulerProject.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{272E5C3A-ADD0-4CDC-831C-8C82A8B14E21}|ProjectEulerProject.pyproj|solutionrelative:ProjectEulerProject.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProjectEulerProject.py",
+              "DocumentMoniker": "C:\\Users\\aglaj\\Documents\\GitHub\\ProjectEulerRepo\\ProjectEulerProject\\ProjectEulerProject.py",
+              "RelativeDocumentMoniker": "ProjectEulerProject.py",
+              "ToolTip": "C:\\Users\\aglaj\\Documents\\GitHub\\ProjectEulerRepo\\ProjectEulerProject\\ProjectEulerProject.py*",
+              "RelativeToolTip": "ProjectEulerProject.py*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-03-14T14:10:31.107Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
