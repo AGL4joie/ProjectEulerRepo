@@ -1,28 +1,24 @@
-def next_prime(current_prime, prime_list):
-    prospect = current_prime
-    confirmation = True
-
-    while confirmation:
-        prospect+=1
-        
-        for prime in prime_list:
-            # Check if the prospect can be divided by a smaller prime number and return an integer.
-            if prospect%prime == 0: # True = not prime
-                break
-            
-            else:
-                confirmed_prospect = prospect 
-                confirmation = False
-                break
+def is_palindrome(number):
+    split_number = list(str(number))
+    number_lenght = int(len(split_number))
+    bool=True
+    # Even
+    if number%2==0:
+        for i in range(1, number_lenght,1):
+            bool *= split_number[i-1]==split_number[-i]
+                    
+    # Odd
+    else:
+        for i in range(1, number_lenght-1,1):
+            bool *= split_number[i-1]==split_number[-i]
     
-    return confirmed_prospect
+    return bool
 
+print(is_palindrome(1234))
+print(is_palindrome(1221))
+print(is_palindrome(12021))
+print(is_palindrome(120231))
 
-confirmed_prospect = next_prime(3, [2,3])
-
-print(confirmed_prospect)
-
-prime_number_list = [2,3]
-
-print(prime_number_list[-1])
-
+number_max = int("9"*2)
+mult_list = list(reversed(range(number_max-10,number_max+1,1)))
+print(mult_list)
