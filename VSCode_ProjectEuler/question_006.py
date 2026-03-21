@@ -12,12 +12,18 @@
 import time
 
 # FUNCTIONS
-def question_004():
+def question_006(number):
     # Constants
-    question_number = "004"
+    question_number = "006"
         
     # Logic 
-    answer_value = 10
+    sum1 = 0
+    for i in range(1,number+1,1):
+        sum1+=i**2
+ 
+    sum2 = sum(range(1,number+1,1))**2
+
+    answer_value = sum2 - sum1
 
     # Format
     result = "The answer to question "+str(question_number)+" is: "+str(answer_value)+"."
@@ -25,7 +31,7 @@ def question_004():
 
 # MAINCODE
 start_time = time.perf_counter()
-result = question_002()
+result = question_006(number=100)
 
 # TIME TRACKING
 end_time = time.perf_counter()
