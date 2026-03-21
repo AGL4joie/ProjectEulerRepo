@@ -12,25 +12,9 @@
 import time
 
 # FUNCTIONS
-def is_palindrome(number):
-    split_number = list(str(number))
-    number_lenght = int(len(split_number))
-    bool=True
-    # Even
-    if number%2==0:
-        for i in range(1, number_lenght,1):
-            bool *= split_number[i-1]==split_number[-i]       
-    # Odd
-    else:
-        for i in range(1, number_lenght-1,1):
-            bool *= split_number[i-1]==split_number[-i]
-    
-    return bool
-
-
-def question_004(n_digit):
+def question_004():
     # Constants
-    question_number = "004"
+    question_number = "001"
         
     # Logic 
     number_max = int("9"*n_digit)
